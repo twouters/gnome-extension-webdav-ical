@@ -10,6 +10,21 @@ This is a combination of two existing github projects:
 https://github.com/sochotnicky/pywebcal (Python module to simplify access to WebDAV calendars (Zimbra/Google Calendar etc.))
 https://github.com/jnns/gnome-shell-google-calendar (An attempt to integrate google calendar into gnome-shell.)
 
+Installation
+============
+
 You'll need to install pywebcal and it's requirements for this to work. (see https://github.com/sochotnicky/pywebcal)
 
-To use this, you'll need to modify the script and change the 3 config variables in gnome-extension-webdav-ical.py and run the script.
+Usage
+=====
+
+To use this, you'll need to modify the script and change the 3 config variables in `gnome-extension-webdav-ical.py` and run the script.
+
+Also, the script has to be running in the background. I added it to the Startup Programs using `gnome-session-properties`.
+
+TODO
+====
+
+- Make sure multiple calendars are supported.
+- Implement dconf/gconf settings.
+- Rewrite everything :D
