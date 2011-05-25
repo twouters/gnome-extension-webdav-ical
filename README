@@ -18,9 +18,9 @@ You'll need to install pywebcal and it's requirements for this to work. (see htt
 Usage
 =====
 
-To use this, you'll need to modify the script and change the 3 config variables in `gnome-extension-webdav-ical.py` and run the script.
+Modify the script and change the 3 config variables in `gnome-extension-webdav-ical.py` and run the script.
 
-Also, the script has to be running in the background. I added it to the Startup Programs using `gnome-session-properties`.
+It has to be running in the background and will fetch the updates when needed and supports some form of caching. I added it to the Startup Programs using `gnome-session-properties`.
 
 TODO
 ====
