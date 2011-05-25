@@ -1,0 +1,15 @@
+About
+=====
+
+This is an extension for gnome3 which adds support for iCal calendars hosted on WebDAV. This should be able to support e.g. Zimbra and possibly Google (haven't tested that yet).
+
+For now it's basically a proof of concept and works for me.
+
+This is a combination of two existing github projects:
+
+https://github.com/sochotnicky/pywebcal (Python module to simplify access to WebDAV calendars (Zimbra/Google Calendar etc.))
+https://github.com/jnns/gnome-shell-google-calendar (An attempt to integrate google calendar into gnome-shell.)
+
+You'll need to install pywebcal and it's requirements for this to work. (see https://github.com/sochotnicky/pywebcal)
+
+To use this, you'll need to modify the script and change the 3 config variables in gnome-extension-webdav-ical.py and run the script.
